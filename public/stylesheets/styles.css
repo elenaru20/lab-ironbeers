@@ -5,3 +5,108 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #bfbfbf;
+    color: white;
+}
+
+.navBar {
+    background-color: #2081c3;    
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+    align-items: center;
+}
+
+.listStyle {
+    width: 30%;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content:space-evenly;
+}    
+
+.listStyle li a {
+    text-decoration: none;
+    color: white;
+}
+
+.beerImg {
+  width: 20%;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+footer {
+    background-color: #0a2c42;
+    color: white;
+    height: 2rem;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+    align-items: flex-start;
+}
+
+
+.centeringMain {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.centeringMain a {
+    background-color: #2081c3;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 3rem;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.beersOverview img {
+    width: 100px;
+}
+
+.beersOverview {
+    text-decoration: none;
+    color: white;
+}
+
+.beerRandom img {
+    width: 134px;
+}
+
+.beerRandom {
+    text-decoration: none;
+    color: white;
+}
+
+.beerBox {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+    align-items: center;
+}
+
